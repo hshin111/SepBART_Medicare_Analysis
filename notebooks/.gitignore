@@ -1,0 +1,13 @@
+*
+!*/
+!.gitignore
+!README.md
+
+# Ignore R scripts with the prefix "run_sepbart_slurm_"
+notebooks/run_sepbart_slurm_*.R
+
+# Ignore shell scripts with the prefix "run_slurm_"
+notebooks/run_slurm_*.sh
+
+# Ignore slurm-*.out files
+notebooks/slurm-*.out
